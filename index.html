@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- link for google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- link for swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <title>school website</title>
+</head>
+
+<!-- link for font awesome -->
+<script src="https://kit.fontawesome.com/f0ff18a034.js" crossorigin="anonymous"></script>
+
+
+<body>
+    <nav>
+        <div class="container nav_container">
+
+            <a href="index.html">
+                <h4>Brainwave</h4>
+            </a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="cources.html">Cources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="fa-solid fa-bars"></i></button>
+            <button id="close-menu-btn"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </nav>
+
+    <!-- end of navbar -->
+
+    <header>
+        <div class="container header_container">
+            <div class="container_left">
+                <h1>Grow your skills to advance your career path</h1>
+                <p>
+                    Welcome to our education website, where we teach students of all ages and backgrounds to achieve in
+                    today's quickly changing world. Our purpose is to give students the tools they need to reach their
+                    academic, career, and personal goals.
+
+                </p>
+                <a href="cources.html" class="btn btn-primary">Get started</a>
+            </div>
+            <div class="container_right">
+                <div class="header_right-image">
+                    <img src="./images/kids.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ------------end of header---------- -->
+
+    <section class="categories">
+        <div class="container categories_container">
+            <div class="categories_left">
+                <h1>Categories</h1>
+                <p>At our education website, we are committed to fostering a supportive and inclusive community of
+                    learners, where individuals can connect with peers and experts from around the world, share ideas
+                    and insights, and collaborate on projects and initiatives. </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="categories_right">
+                <article class="category">
+                    <span class="category_icon"><i class="fa-brands fa-bitcoin"></i></span>
+                    <h5>Blockchain</h5>
+                    <p>Blockchains protect and transparently record transactions across numerous machines.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-regular fa-palette"></i></span>
+                    <h5>Graphic Design</h5>
+                    <p>Graphic design creates visual content for a specific audience.</p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-dollar-sign"></i></span>
+                    <h5>Finance</h5>
+                    <p>Finance is the management of money and investments, typically by organizations or individuals.
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-bullhorn"></i></span>
+                    <h5>Marketing</h5>
+                    <p>Marketing involves creating and promoting products and services to meet client needs.
+
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-music"></i></span>
+                    <h5>Music</h5>
+                    <p>Music is an art form that uses sound and rhythm to create expressions of emotion, mood, and ideas
+                    </p>
+                </article>
+
+                <article class="category">
+                    <span class="category_icon"><i class="fa-solid fa-shop"></i></span>
+                    <h5>Business</h5>
+                    <p>Business refers to the activity of producing, selling, or trading goods or services for profit.
+                    </p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+    <!-------------end of categories--------->
+
+
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses_container">
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/comp.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Computer Engineering</h4>
+                    <p>Computer Engineering is a branch of engineering that combines principles of electrical
+                        engineering and computer science to design and develop computer systems, hardware, and software.
+                    </p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/it1.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>IT Engineering</h4>
+                    <p>Information Technology (IT) refers to the use of computers, software, and telecommunications
+                        equipment to store, retrieve, and transmit digital data.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/mech1.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Mechanical Engineering</h4>
+                    <p>Mechanical Engineering is a branch of engineering that deals with the design, development, and
+                        manufacturing of mechanical systems, devices, and machines.
+                    </p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="./images/electrical.png" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Electrical Engineering</h4>
+                    <p>Electrical Engineering is a field of engineering that deals with the study and application of
+                        electricity, electronics, and electromagnetism.
+
+                    </p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- ------end of courses-------- -->
+
+
+    <!-- ------faqs------ -->
+
+    <section class="faqs">
+        <h2>Frequenty asked questions</h2>
+        <div class="container faqs_container">
+            <article class="faq">
+                <div class="faq_icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question_answer">
+                    <h4>What kind of courses or programs do you offer?</h4>
+                    <p>We offer a wide range of courses and programs, from academic subjects like math, science, and
+                        history to professional development courses in fields like business, marketing, and technology.
+                        We also offer courses in personal development, such as language learning and creative writing.
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question_answer">
+                    <h4>Do you offer online courses?</h4>
+                    <p>Yes, we offer a variety of online courses that can be taken from anywhere in the world. Our
+                        online courses are designed to be flexible and accessible, allowing learners to study at their
+                        own pace and on their own schedule.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question_answer">
+                    <h4> Are your courses accredited?</h4>
+                    <p>Some of our courses are accredited by relevant accrediting bodies, but not all of them. We do our
+                        best to provide accurate information about the accreditation status of each course on our
+                        website, so learners can make informed decisions about which courses to take.</p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question_answer">
+                    <h4>Can I get a certificate/degree from your website?</h4>
+                    <p>We offer both certificates and degrees for some of our programs. Certificates are typically
+                        awarded for completing individual courses, while degrees are awarded for completing a series of
+                        courses in a particular field or subject.</p>
+                </div>
+            </article>
+
+
+            <article class="faq">
+                <div class="faq_icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question_answer">
+                    <h4>How much do your courses cost?</h4>
+                    <p>The cost of our courses varies depending on the program and the type of course. We strive to make
+                        our courses as affordable as possible, and we offer scholarships and financial aid to eligible
+                        learners.</p>
+                </div>
+            </article>
+
+
+            <article class="faq">
+                <div class="faq_icon">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="question_answer">
+                    <h4> Do you offer any support or resources for learners?</h4>
+                    <p>Yes, we offer a variety of support and resources for learners, including online forums, tutoring
+                        services, and academic advising. We also provide access to libraries, research databases, and
+                        other resources to help learners succeed.</p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- ------end of faqs-------- -->
+
+
+
+    <!-- -----testimonials----- -->
+
+    <section class="container testimonials_container mySwiper">
+        <h2>Students Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/myprofile.png" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Brigunandan Sharma</h5>
+                    <small>student</small>
+                    <p class="testimonial_body">This educational website is a game-changer! The courses are informative,
+                        well-structured, and easy to understand. The interactive quizzes and assessments helped me
+                        identify my areas of weakness.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/daksh.png" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Daksh Khedekar</h5>
+                    <small>web developer</small>
+                    <p class="testimonial_body">This educational website is a great resource for web developers. The
+                        courses are well-structured and cover a wide range of topics. The exercises and projects are
+                        challenging and helped me develop my skills.
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar1.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Abhishek</h5>
+                    <small>Graphic Designer</small>
+                    <p class="testimonial_body">"I've been using this educational website to enhance my graphic design
+                        skills, and it's been a fantastic experience. The courses are comprehensive, and the lessons are
+                        easy to follow.""
+                    </p>
+                </div>
+            </article>
+
+            <!-- <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="./images/avatar4.jpg" alt="">
+                </div>
+                <div class="testimonial_info">
+                    <h5>Nimisha</h5>
+                    <small>creator</small>
+                    <p class="testimonial_body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+                        maxime officiis voluptatum eligendi ab, aliquam vero nostrum id maiores est et libero vitae
+                        accusamus voluptas.
+                    </p> -->
+        </div>
+        </article>
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+
+    <!-- -------end of testamonials------ -->
+
+    <!-- -----------footer---------- -->
+    <footer>
+        <div class="container footer_container">
+            <div class="footer_1">
+                <h4><a href="index.html" class="footer_logo">Brainwave</a></h4>
+                <p>Empower Your Mind with Us!</p>
+            </div>
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="cources.html">Cources</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer_3">
+                <h4>Privacy</h4>
+                <ul class="primvacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_copyright">
+            <small>Copyright &copy;KJSCE</small>
+        </div>
+    </footer>
+
+    <!-- script for custom js -->
+    <script src="main.js"></script>
+
+    <!-- script for swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- js to initialize swipper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            //   when window widht is >=600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
